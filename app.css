@@ -27,9 +27,10 @@ h2{
 }
 table{
     background-color: rgb(252, 253, 195, 0.5);
+    text-align: center;
 }
 ul{
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 }
 table{
     font-size: 1.3rem;
@@ -44,3 +45,6 @@ input{
     size: 20px;
 }
 /* Sized the lettering for formatting */
+h3{
+    text-shadow: 3px 3px 3px hsla(0, 79%, 68%, 0.5), -3px -3px 3px hsla(225, 79%, 68%, 0.5);
+}
