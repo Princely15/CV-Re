@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Megrim&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Special+Gothic:wght@400..700&family=VT323&display=swap" rel="stylesheet">
 </head>
 <body>
     <h1>Richmond Oginni</h1>
@@ -70,17 +74,19 @@
     <!-- Contact Inputs -->
      <div>
         <label>
-            Name
+            Name: 
             <input type="text" name="name" id="name" placeholder="Richmond O." minlength="4" maxlength="20">
         </label>
      </div>
+     <br>
      <!-- Name Input -->
      <div>
         <label>
-            Email
-            <input type="text" name="email" id="email" placeholder="johnapple@yahoo.com.">
+            Email: 
+            <input type="text" name="email" id="email" placeholder="johnapple@yahoo.com">
         </label>
      </div>
+     <br>
      <!-- Email Input -->
       <div>
         <label>
@@ -90,22 +96,33 @@
                 <option value="Intership Offer">Internship Offer</option>
                 <option value="Notes and Advice">Notes and Advice</option>
             </select>
-
         </label>
      </div>
+     <br>
      <!-- Added a Contact Info -->
       <div>
         <Caption>What games are your favorite?</Caption> <br>
-        <input type="radio" name="games" id="games" value="RPG Games"> RPG Games <br>
-        <input type="radio" name="games" id="games" value="Shooters"> Shooters <br>
-        <input type="radio" name="games" id="games" value="Adventure"> Adventure Games <br>
-        <input type="radio" name="games" id="games" value="Fighting Games"> Fighting Games <br>
+        <label for="games">RPG Games</label>
+        <input type="checkbox" name="games" id="games" value="RPG Games"> <br>
+
+        <label for="shooters"> First Person Games </label>
+        <input type="checkbox" name="shooters" id="shooters" value="Shooters"> <br>
+
+        <label for="Adventure">Adventure Games</label>
+        <input type="checkbox" name="Adventure" id="Adventure" value="Adventure"> <br>
+
+        <label for="Fighting">FIghting Games</label>
+        <input type="checkbox" name="Fighting" id="Fighting" value="Fighting Games"> <br>
       </div>
+      <br>
         <!-- Added a choice for favorite games -->
       <div>
         <label for="textbox">Message: </label>
         <textarea name="textbox" id="textbox" placeholder="If you don't have anything nice to say..."></textarea>
       </div>
+
+      <br>
+
       <button type="reset">Clear Message</button>
       <button type="submit">Submit Message</button>
       <!-- Added a place to add a message -->

@@ -1,0 +1,46 @@
+html{
+    font-size: 1vw;
+}
+h1{
+    font-family: special gothic, sans-serif;
+    text-align: center;
+    text-shadow: 3px 3px 3px hsla(0, 79%, 68%, 0.5), -3px -3px 3px hsla(225, 79%, 68%, 0.5);
+    letter-spacing: 5px;
+    font-size: 5rem;
+}
+body{
+    font-family: special gothic, sans-serif;
+    background-color: whitesmoke;
+}
+/* Added a color background */
+a{
+    text-decoration: none;
+    /* Removed link decorations */
+}
+p{
+    text-align: left;
+    font-size: 1.5rem;
+}
+h2{
+    text-shadow: 3px 3px 3px hsla(0, 79%, 68%, 0.5), -3px -3px 3px hsla(225, 79%, 68%, 0.5);
+    font-size: 3rem;
+}
+table{
+    background-color: rgb(252, 253, 195, 0.5);
+}
+ul{
+    font-size: 1.1rem;
+}
+table{
+    font-size: 1.3rem;
+}
+label{
+    font-size: 1.3rem;
+}
+caption{
+    font-size: 2rem;
+}
+input{
+    size: 20px;
+}
+/* Sized the lettering for formatting */
